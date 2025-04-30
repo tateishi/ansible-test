@@ -1,0 +1,13 @@
+---
+- name: hello
+  import_playbook: library/hello.yml
+
+- hosts: all
+  name: foo
+  tasks:
+    - name: foo is defined
+      when: foo is defined
+      debug:
+        msg: "foo={{ foo }}"
+      tags: debug
+

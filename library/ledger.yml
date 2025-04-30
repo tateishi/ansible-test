@@ -1,0 +1,33 @@
+- name: install ledger
+  hosts: target
+  roles:
+    - name: install ledger
+      role: ledger
+
+- hosts: target
+  vars:
+    work_path: "~/wks/ledger"
+
+  tasks:
+    - name: make work directory
+      file:
+        path: "{{ work_path }}"
+        state: directory
+
+    - name: checkout ledger repositories
+      git:
+        repo: "{{ item.repo }}"
+        dest: "{{ item.dest }}"
+      loop:
+        - repo: http://gitea.home/wallet/wallet.git
+          dest: "{{ work_path }}/wallet"
+        - repo: http://gitea.home/wallet/ledger_kakei.git
+          dest: "{{ work_path }}/ledger_kakei"
+        - repo: http://gitea.home/wallet/ledger_tadatoshi.git
+          dest: "{{ work_path }}/ledger_tadatoshi"
+        - repo: http://gitea.home/wallet/ledger_hanako.git
+          dest: "{{ work_path }}/ledger_hanako"
+        - repo: http://gitea.home/wallet/ledger_estate.git
+          dest: "{{ work_path }}/ledger_estate"
+        - repo: http://gitea.home/wallet/accounts.git
+          dest: "{{ work_path }}/accounts"

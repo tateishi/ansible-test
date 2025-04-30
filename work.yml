@@ -1,0 +1,6 @@
+---
+- hosts: all
+  name: common configuration
+  roles:
+    - role: timezone    
+    - role: apt-upgrade
