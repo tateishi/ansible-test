@@ -7,6 +7,7 @@ group_packages:
   - mc
   - screen
   - silversearcher-ag
+  - source-highlight
   - tig
   - tmux
   - translate-shell
