@@ -1,9 +1,11 @@
 [all]
+lxd06
 foo
-hoge
-fuga
+bar
+baz
 
 [noble]
+lxd06
 foo
-hoge
-fuga
+bar
+baz
