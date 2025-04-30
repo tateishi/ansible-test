@@ -1,0 +1,13 @@
+group_packages:
+  - bash-completion
+  - bat
+  - git
+  - htop
+  - jq
+  - mc
+  - screen
+  - silversearcher-ag
+  - tig
+  - tmux
+  - translate-shell
+  - tree

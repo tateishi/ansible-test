@@ -1,0 +1,13 @@
+- name: install group packages
+  become: true
+  apt:
+    name: "{{ item }}"
+    update_cache: true
+  loop: "{{ group_packages }}"
+
+- name: install host packages
+  become: true
+  apt:
+    name: "{{ item }}"
+    update_cache: true
+  loop: "{{ host_packages }}"

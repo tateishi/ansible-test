@@ -5,4 +5,4 @@
     - role: timezone    
     - role: apt-upgrade
     - role: authorized_key
-    
+    - role: packages
