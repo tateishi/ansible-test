@@ -2,7 +2,8 @@
 - hosts: all
   name: common configuration
   roles:
-    - role: timezone    
+    - role: timezone
     - role: apt-upgrade
     - role: authorized_key
     - role: packages
+    - role: dotfiles-chezmoi
