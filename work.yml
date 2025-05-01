@@ -5,5 +5,12 @@
     - role: timezone
     - role: authorized_keys_work
     - role: apt-upgrade
-    - role: packages
     - role: dotfiles-chezmoi
+
+
+- hosts: noble
+  name: ubuntu noble configuration
+  roles:
+    - role: packages
+      vars:
+        install_packages: "{{ packages }}"
