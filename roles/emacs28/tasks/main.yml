@@ -1,0 +1,27 @@
+- name: emacs install
+  become: true
+  snap:
+    name: emacs
+    classic: true
+
+- name: clone chemacs2
+  git:
+    repo: "{{ chemacs_url }}"
+    dest: "{{ chemacs_dest_dir }}"
+    version: "{{ chemacs_version }}"
+
+- name: make .config/chemacs directory
+  file:
+    path: "{{ chemacs_profile_dir }}"
+    state: directory
+
+- name: copy profiles.el
+  copy:
+    src: profiles.el
+    dest: "{{ chemacs_profile_dir }}/profiles.el"
+
+- name: clone emacs-config
+  git:
+    repo: "{{ emacs_config_url }}"
+    dest: "{{ emacs_config_dir }}"
+    update: false
