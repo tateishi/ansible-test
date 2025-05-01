@@ -8,6 +8,7 @@ jupyter-test-lxd01
 nginx-lxd01
 scratch-lxd01
 ws01-lxd01
+ws02
 
 [focal]
 
@@ -23,6 +24,8 @@ jupyter-test-lxd01
 nginx-lxd01
 scratch-lxd01
 ws01-lxd01
+ws02
 
 [emacs28]
 ws01-lxd01
+ws02
