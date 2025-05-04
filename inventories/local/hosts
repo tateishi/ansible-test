@@ -1,7 +1,5 @@
 [local]
 localhost
-mylocalhost
 
 [local:vars]
 ansible_connection=local
-#foo="hosts file group"
