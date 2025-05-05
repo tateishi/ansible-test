@@ -3,7 +3,7 @@
   name: common configuration
   roles:
     - role: timezone
-    - role: authorized_key_home
+    - role: authorized_keys
     - role: apt-upgrade
     - role: packages
     - role: dotfiles-chezmoi

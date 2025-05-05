@@ -1,4 +1,4 @@
-foo: 
+foo:
 
 host_packages:
   - python3-pip
