@@ -1,4 +1,4 @@
-group_packages:
+packages:
   - bash-completion
   - bat
   - git
