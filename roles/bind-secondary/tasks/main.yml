@@ -2,21 +2,21 @@
 # tasks file for bind-secondary
 - name: install bind
   become: true
-  apt: 
+  ansible.builtin.apt:
     name:
       - bind9
     update_cache: true
 
 - name: start bind
   become: true
-  service:
+  ansible.builtin.service:
     name: bind9
     state: started
     enabled: true
 
 - name: make directory for secondary
   become: true
-  file:
+  ansible.builtin.file:
     path: "{{ dns.dump.path }}"
     state: directory
     owner: "{{ dns.dump.owner }}"
@@ -25,7 +25,7 @@
 
 - name: make directory for log
   become: true
-  file:
+  ansible.builtin.file:
     path: "{{ dns.log.path }}"
     state: directory
     owner: "{{ dns.log.owner }}"
@@ -34,7 +34,7 @@
 
 - name: copy named.conf.options
   become: true
-  template:
+  ansible.builtin.template:
     src: named.conf.options.j2
     dest: "{{ dns.config_dir }}/named.conf.options"
     owner: root
@@ -43,7 +43,7 @@
 
 - name: copy named.conf.local
   become: true
-  template:
+  ansible.builtin.template:
     src: named.conf.local.j2
     dest: "{{ dns.config_dir }}/named.conf.local"
     owner: root

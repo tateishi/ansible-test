@@ -23,7 +23,7 @@
   when: ansible_distribution_release == "noble"
 
 - name: install python package in user
-  pip:
+  ansible.builtin.pip:
     name:
       - pipenv
       - black

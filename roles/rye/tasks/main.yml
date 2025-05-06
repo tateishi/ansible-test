@@ -1,5 +1,5 @@
 - name: rye
-  shell: >
+  ansible.builtin.shell: >
     curl -sSf {{ url }} | {{ options }} bash
   args:
     creates: "{{ ansible_env.HOME }}/.rye"
