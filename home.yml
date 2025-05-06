@@ -7,3 +7,8 @@
     - role: apt-upgrade
     - role: packages
     - role: dotfiles-chezmoi
+
+- hosts: nameserver
+  name: nameserver
+  roles:
+    - role: bind-secondary
