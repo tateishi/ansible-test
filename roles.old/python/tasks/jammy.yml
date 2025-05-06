@@ -1,4 +1,0 @@
-- name: install python for jammy
-  become: yes
-  ansible.builtin.apt:
-    name: "{{ packages_jammy }}"

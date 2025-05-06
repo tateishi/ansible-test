@@ -1,4 +1,0 @@
-- name: install python for hirsute
-  become: yes
-  ansible.builtin.apt:
-    name: "{{ packages_hirsute }}"

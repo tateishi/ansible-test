@@ -1,6 +1,0 @@
-- name: install packages
-  become: true
-  ansible.builtin.apt:
-    name: "{{ item }}"
-    update_cache: true
-  loop: "{{ install_packages }}"

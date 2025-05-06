@@ -1,3 +1,0 @@
-- name: install items by pipx
-  community.general.pipx:
-    name: yt-dlp

@@ -1,4 +1,0 @@
-- name: install python for noble
-  become: yes
-  ansible.builtin.apt:
-    name: "{{ packages_noble }}"
