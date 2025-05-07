@@ -1,9 +1,5 @@
-[focal]
-
-[jammy]
+[ubuntu]
 system1888 user=thkadmin
-
-[noble]
 lxd01
 asset-lxd01
 con01-lxd01

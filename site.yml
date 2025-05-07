@@ -8,8 +8,8 @@
     - role: dotfiles-chezmoi
 
 
-- hosts: noble
-  name: ubuntu noble configuration
+- hosts: ubuntu
+  name: ubuntu packae install
   roles:
     - role: packages
       vars:
