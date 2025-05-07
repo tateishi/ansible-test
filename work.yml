@@ -15,7 +15,7 @@
       vars:
         install_packages: "{{ packages }}"
 
-- hosts: emacs28
-  name: install emacs28
+- hosts: emacs
+  name: install emacs
   roles:
-    - role: emacs28
+    - role: emacs
