@@ -1,13 +1,3 @@
-[all]
-lxd01
-asset-lxd01
-con01-lxd01
-database-lxd01
-jupyter-lxd01
-jupyter-test-lxd01
-nginx-lxd01
-scratch-lxd01
-
 [focal]
 
 [jammy]
@@ -25,5 +15,14 @@ ws01-lxd01
 ws02
 
 [emacs]
+asset-lxd01
+nginx-lxd01
+scratch-lxd01
 ws01-lxd01
 ws02
+
+[docker]
+con01-lxd01
+database-lxd01
+jupyter-test-lxd01
+nginx-lxd01

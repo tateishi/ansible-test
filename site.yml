@@ -19,3 +19,8 @@
   name: install emacs
   roles:
     - role: emacs
+
+- hosts: docker
+  name: install docker
+  roles:
+    - role: docker
