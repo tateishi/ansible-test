@@ -1,6 +1,7 @@
 [focal]
 
 [jammy]
+system1888 user=thkadmin
 
 [noble]
 lxd01
