@@ -1,5 +1,0 @@
-- name:  youtube configurations
-  hosts: target
-  roles:
-    - name: install yt-dlp
-      role: youtube

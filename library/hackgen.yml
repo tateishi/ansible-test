@@ -1,5 +1,0 @@
-- name: HackGen test
-  hosts: target
-  roles:
-    - name: Install HackGen
-      role: font-hackgen

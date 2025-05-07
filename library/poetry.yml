@@ -1,5 +1,0 @@
-- name:  python poetry configurations
-  hosts: target
-  roles:
-    - name: install poetry
-      role: py-poetry

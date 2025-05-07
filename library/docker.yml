@@ -1,4 +1,0 @@
-- hosts: target
-  roles:
-    - name: install docker
-      role: docker
