@@ -12,3 +12,8 @@
   name: nameserver
   roles:
     - role: bind-secondary
+
+- hosts: ledger_hosts
+  name: ledger
+  roles:
+    - role: ledger

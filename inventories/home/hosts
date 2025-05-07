@@ -31,3 +31,6 @@ ns3
 [nameserver]
 ns1
 ns3
+
+[ledger_hosts]
+ledger
