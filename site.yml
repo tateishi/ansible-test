@@ -5,12 +5,12 @@
     - role: timezone
     - role: authorized_keys
     - role: apt-upgrade
-    - role: dotfiles-chezmoi
 
 
 - hosts: ubuntu
   name: ubuntu packae install
   roles:
+    - role: dotfiles-chezmoi
     - role: packages
       vars:
         install_packages: "{{ packages }}"
