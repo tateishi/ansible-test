@@ -16,9 +16,13 @@ asset-lxd01
 nginx-lxd01
 scratch-lxd01
 ws01-lxd01
+gitbucket-lxd01
+gitea-lxd01
 
 [docker]
 con01-lxd01
 database-lxd01
 jupyter-test-lxd01
 nginx-lxd01
+gitbucket-lxd01
+gitea-lxd01
