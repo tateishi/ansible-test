@@ -1,3 +1,6 @@
+[all]
+system6078 user=thkadmin
+
 [ubuntu]
 lxd01
 asset-lxd01
