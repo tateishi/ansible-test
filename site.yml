@@ -8,7 +8,7 @@
 
 
 - hosts: ubuntu
-  name: ubuntu packae install
+  name: ubuntu package install
   roles:
     - role: dotfiles-chezmoi
     - role: packages
