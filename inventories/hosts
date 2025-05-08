@@ -24,6 +24,11 @@ shift-system1888
 test-system1888
 u2404-system1888
 
+ansible-system6078
+gitbucket-system6078
+gitea-system6078
+scratch-system6078
+
 [emacs]
 asset-lxd01
 nginx-lxd01
