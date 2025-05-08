@@ -1,0 +1,9 @@
+[all]
+system6080 user=thkadmin
+
+[ubuntu]
+ansible-system6080
+
+[emacs]
+
+[docker]

@@ -1,5 +1,6 @@
 [all]
 system6078 user=thkadmin
+system6080 user=thkadmin
 
 [ubuntu]
 lxd01
@@ -31,6 +32,8 @@ ansible-system6078
 gitbucket-system6078
 gitea-system6078
 scratch-system6078
+
+ansible-system6080
 
 [emacs]
 asset-lxd01
