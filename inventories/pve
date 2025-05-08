@@ -1,0 +1,10 @@
+[all]
+
+[ubuntu]
+ansible
+lxd01
+ws02
+
+[emacs]
+
+[docker]

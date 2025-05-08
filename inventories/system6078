@@ -1,0 +1,16 @@
+[all]
+system6078 user=thkadmin
+
+[ubuntu]
+ansible-system6078
+gitbucket-system6078
+gitea-system6078
+scratch-system6078
+
+[emacs]
+scratch-system6078
+
+[docker]
+gitbucket-system6078
+gitea-system6078
+scratch-system6078
