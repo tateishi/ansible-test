@@ -1,4 +1,15 @@
 [ubuntu]
+lxd01
+asset-lxd01
+con01-lxd01
+database-lxd01
+jupyter-lxd01
+jupyter-test-lxd01
+nginx-lxd01
+scratch-lxd01
+ws01-lxd01
+ws02
+
 system1888 user=thkadmin
 jupyter-system1888
 ldap-system1888
@@ -13,23 +24,21 @@ shift-system1888
 test-system1888
 u2404-system1888
 
-lxd01
-asset-lxd01
-con01-lxd01
-database-lxd01
-jupyter-lxd01
-jupyter-test-lxd01
-nginx-lxd01
-scratch-lxd01
-ws01-lxd01
-ws02
-
 [emacs]
 asset-lxd01
 nginx-lxd01
 scratch-lxd01
 ws01-lxd01
 ws02
+
+jupyter-system1888
+nvm-system1888
+python-system1888
+rlang-system1888
+rust-system1888
+scratch-system1888
+shift-system1888
+test-system1888
 
 [docker]
 con01-lxd01
