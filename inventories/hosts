@@ -48,6 +48,8 @@ scratch-system1888
 shift-system1888
 test-system1888
 
+scratch-system6078
+
 [docker]
 con01-lxd01
 database-lxd01
@@ -57,3 +59,7 @@ nginx-lxd01
 jupyter-system1888
 scratch-system1888
 shift-system1888
+
+gitbucket-system6078
+gitea-system6078
+scratch-system6078
