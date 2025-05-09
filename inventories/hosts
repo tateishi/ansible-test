@@ -3,7 +3,9 @@ system6078 user=thkadmin
 system6080 user=thkadmin
 
 [ubuntu]
+ansible
 lxd01
+ws02-pve
 
 asset-lxd01
 con01-lxd01
@@ -15,8 +17,6 @@ jupyter-test-lxd01
 nginx-lxd01
 scratch-lxd01
 ws01-lxd01
-
-ws02
 
 system1888 user=thkadmin
 jupyter-system1888
@@ -40,14 +40,14 @@ scratch-system6078
 ansible-system6080
 
 [emacs]
+ansible
+
 asset-lxd01
 gitbucket-lxd01
 gitea-lxd01
 nginx-lxd01
 scratch-lxd01
 ws01-lxd01
-
-ws02
 
 jupyter-system1888
 nvm-system1888

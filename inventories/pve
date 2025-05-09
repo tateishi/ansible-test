@@ -3,8 +3,9 @@
 [ubuntu]
 ansible
 lxd01
-ws02
+ws02-pve
 
 [emacs]
+ansible
 
 [docker]
