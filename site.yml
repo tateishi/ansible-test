@@ -1,13 +1,19 @@
 ---
-- name: hello
-  import_playbook: library/hello.yml
-
 - hosts: all
-  name: foo
-  tasks:
-    - name: foo is defined
-      when: foo is defined
-      debug:
-        msg: "foo={{ foo }}"
-      tags: debug
+  name: common configuration
+  roles:
+    - role: timezone
+    - role: authorized_keys
+    - role: apt-upgrade
+    - role: packages
+    - role: dotfiles-chezmoi
 
+- hosts: nameserver
+  name: nameserver
+  roles:
+    - role: bind-secondary
+
+- hosts: ledger_hosts
+  name: ledger
+  roles:
+    - role: ledger

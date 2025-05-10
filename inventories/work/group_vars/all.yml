@@ -1,3 +1,0 @@
-timezone: "Asia/Tokyo"
-do_apt_upgrade: true
-authorized_keys_url: "http://system6078.tokai-tv.co.jp:3000/tateishi/authorized_keys/raw/branch/main/authorized_keys"
