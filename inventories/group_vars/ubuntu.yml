@@ -1,4 +1,4 @@
-packages:
+  install_packages:
   - bash-completion
   - bat
   - git
