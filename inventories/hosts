@@ -20,3 +20,13 @@ ns3
 
 [ledger_hosts]
 ledger
+
+[emacs]
+ca
+foo
+ledger
+openvpn
+openxpki
+psql
+scratch
+solidpython

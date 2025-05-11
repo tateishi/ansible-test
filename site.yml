@@ -17,3 +17,8 @@
   name: ledger
   roles:
     - role: ledger
+
+- hosts: emacs
+  name: emacs
+  roles:
+    - role: emacs
